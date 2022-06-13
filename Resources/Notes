@@ -1,0 +1,25 @@
+If a perpetrator is given prison time as result of a court case, add DOC record
+
+Done
+----
+Add timer
+Implement Incident Report Window
+display welcome_user
+Add wallpapers to each window
+change access (low, med, high) to ranking (officer, sergeant, lieutenant)
+Implement case file searching
+search for cases using case numbers
+Implement Criminal Records Window
+join case table to criminal record table to search by name (perpetrator)
+Look at someones rap sheet
+search using name or dl number to find
+click on person, display all cases
+disambiguate case vs incident
+how long do incidents last
+finish add user window, finish edit user window
+delete employees function (think about employeeid)
+Implement Court Records (DOJ)
+FIELDS: Docket, Date, Title, Plaintiff, Defendant, Verdict, Sentence, CaseNumber
+Implement DOC Records FirstName, LastName
+finish insert statements
+display number of records found in DMVWindow after searching
