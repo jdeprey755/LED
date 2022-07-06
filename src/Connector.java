@@ -4,6 +4,7 @@ import java.util.ArrayList;
 public class Connector {
     private String pass = "686462s";
     //String pass = "pass12";
+
     public Connector() {
     }
 

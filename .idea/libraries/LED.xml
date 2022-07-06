@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="LED">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/out/artifacts/LED_jar/LED.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

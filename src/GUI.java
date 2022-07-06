@@ -3,6 +3,7 @@ import javax.swing.border.BevelBorder;
 import javax.swing.border.LineBorder;
 import java.awt.*;
 
+//make createFrame, createSearchPanel, addNewInfoPanel
 public class GUI {
     public static JButton createButton(String buttonName, int x, int y) {
         JButton button = new JButton(buttonName);
@@ -37,5 +38,11 @@ public class GUI {
 
     public static LineBorder getLine() {
         return new LineBorder(Color.DARK_GRAY, 1);
+    }
+
+    public static JPanel createSearch() {
+        JPanel searchPanel = new JPanel(null);
+
+        return new JPanel();
     }
 }

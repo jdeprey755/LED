@@ -132,7 +132,16 @@ public class CaseWindow {
             }
         });
 
-        JButton backBtn = GUI.createButton("  Back", 15, 15);
+        JButton addCaseBtn = GUI.createButton("  Add New Case", 15, 15);
+        addCaseBtn.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+
+            }
+        });
+        frame.add(addCaseBtn);
+
+        JButton backBtn = GUI.createButton("  Back", 15, 80);
         frame.add(backBtn);
         backBtn.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {
