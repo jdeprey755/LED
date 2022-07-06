@@ -32,6 +32,14 @@ public class GUI {
         return button;
     }
 
+    //new method to create a search box so each window doesnt have to hava custom box for ui.
+    public static JPanel createBox(int row) {
+        JPanel pane = new JPanel(new GridLayout(row, 2));
+        //maybe change size depending on amount of rows
+        pane.setBounds(650, 250, 350, 400);
+        return pane;
+    }
+
     public static BevelBorder getBevel() {
         return new BevelBorder(BevelBorder.RAISED, new Color(227, 227, 227), new Color(33, 33, 33));
     }
