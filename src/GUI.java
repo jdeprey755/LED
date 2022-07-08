@@ -34,7 +34,7 @@ public class GUI {
 
     //new method to create a search box so each window doesnt have to hava custom box for ui.
     public static JPanel createBox(int row) {
-        JPanel pane = new JPanel(new GridLayout(row, 2));
+        JPanel pane = new JPanel(new GridLayout(row, 1, 0, 50));
         //maybe change size depending on amount of rows
         pane.setBounds(650, 250, 350, 400);
         return pane;
